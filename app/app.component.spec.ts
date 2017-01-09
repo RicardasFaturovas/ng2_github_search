@@ -22,7 +22,7 @@ describe('AppComponent', function () {
     de = fixture.debugElement.query(By.css('h1'));
   });
 
-  it('should create component', () => expect(comp).toBeDefined() );
+  it('should create components', () => expect(comp).toBeDefined() );
 
   it('should have expected <h1> text', () => {
     fixture.detectChanges();

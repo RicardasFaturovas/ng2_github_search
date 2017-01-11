@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Album} from "../../../Album";
+import {Album} from "../../classes/Album";
 import {SpotifyService} from "../../services/spotify.service";
 import {ActivatedRoute} from "@angular/router";
-import {Artist} from "../../../Artist";
+import {Artist} from "../../classes/Artist";
 
 @Component({
   moduleId: module.id,

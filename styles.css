@@ -1,0 +1,29 @@
+.main{
+  border-bottom: rgba(68,68,68,0.97) 1px solid;
+  padding: 30px;
+}
+.artist-header{
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px cadetblue;
+}
+.artist-thumb{
+  width:100px;
+  height:auto;
+  float:left;
+  margin-right:10px;
+}
+.artist-alubms .well{
+  margin-bottom: 20px;
+  overflow: auto;
+  min-height: 400px;
+}
+.album{
+  text-align: center;
+  background: cadetblue;
+  padding: 10px 20px;
+  border: rgba(133,133,133,0.97) 1px solid;
+}
+.album-thumb{
+  width: 100%;
+}

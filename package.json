@@ -32,7 +32,14 @@
     "rxjs": "5.0.1",
     "zone.js": "^0.7.4",
     "typescript": "~2.0.10",
-    "concurrently": "^3.1.0"
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "http-server": "^0.9.0",
+    "@types/node": "^6.0.46",
+    "tslint": "^3.15.1",
+    "canonical-path": "0.0.2",
+    "lodash": "^4.16.4",
+    "rimraf": "^2.5.4"
   },
   "devDependencies": {
     "concurrently": "^3.1.0",

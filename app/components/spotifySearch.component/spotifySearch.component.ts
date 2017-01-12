@@ -6,7 +6,7 @@ import {Artist} from "../../classes/Artist";
 @Component({
   //moduleId: module.id,
   selector: 'spotifySearch',
-  templateUrl: './app./components/spotifySearch.component/spotifySearch.component.html',
+  templateUrl: './app/components/spotifySearch.component/spotifySearch.component.html',
 })
 export class SpotifySearchComponent  {
   searchStr:string;

@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import {GithubService} from "../../services/github.service";
 
 @Component({
-  //moduleId: module.id,
+  moduleId: module.id,
   selector: 'profile',
-  templateUrl: './app./components/profile.component/profile.component.html',
+  templateUrl: 'profile.component.html',
 })
 export class ProfileComponent  {
   user:any;

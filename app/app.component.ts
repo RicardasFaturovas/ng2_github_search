@@ -3,9 +3,9 @@ import {GithubService} from "./services/github.service";
 import {SpotifyService} from "./services/spotify.service";
 
 @Component({
-  moduleId: module.id,
+  //moduleId: module.id,
   selector: 'my-app',
-  templateUrl:'app.component.html',
+  templateUrl:'./app/app.component.html',
   providers:[GithubService,SpotifyService]
 })
 export class AppComponent  {

@@ -5,9 +5,9 @@ import {ActivatedRoute} from "@angular/router";
 import {Artist} from "../../classes/Artist";
 
 @Component({
-  moduleId: module.id,
+  //moduleId: module.id,
   selector: 'album',
-  templateUrl: 'album.component.html',
+  templateUrl: './app./components/album.component/album.component.html',
 })
 export class AlbumComponent implements OnInit{
   id:string;

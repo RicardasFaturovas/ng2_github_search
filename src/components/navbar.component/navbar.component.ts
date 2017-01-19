@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import {GithubService} from "../../services/github.service";
 
 @Component({
-  //moduleId: module.id,
+  moduleId: module.id,
   selector: 'navbar',
-  templateUrl: './app/components/navbar.component/navbar.component.html',
+  templateUrl: 'navbar.component.html',
   providers: [GithubService]
 })
 export class NavbarComponent  {

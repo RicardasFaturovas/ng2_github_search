@@ -1,5 +1,5 @@
 // /*global jasmine, __karma__, window*/
-Error.stackTraceLimit = 0; // "No stacktrace"" is usually best for app testing.
+Error.stackTraceLimit = 0; // "No stacktrace"" is usually best for src testing.
 
 // Uncomment to get full stacktrace output. Sometimes helpful, usually not.
 // Error.stackTraceLimit = Infinity; //
@@ -7,8 +7,8 @@ Error.stackTraceLimit = 0; // "No stacktrace"" is usually best for app testing.
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 1000;
 
 // builtPaths: root paths for output ("built") files
-// get from karma.config.js, then prefix with '/base/' (default is 'app/')
-var builtPaths = (__karma__.config.builtPaths || ['app/'])
+// get from karma.config.js, then prefix with '/base/' (default is 'src/')
+var builtPaths = (__karma__.config.builtPaths || ['src/'])
                  .map(function(p) { return '/base/'+p;});
 
 __karma__.loaded = function () { };
